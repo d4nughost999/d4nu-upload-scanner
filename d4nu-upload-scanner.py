@@ -32,7 +32,7 @@ def usage():
     print("Usage: python3 d4nu-upload-scanner.py <url>")
     print("Example: python3 d4nu-upload-scanner.py http://target.com/page")
 
-if name == "main":
+if __name__ == "__main__":
     banner()
     if len(sys.argv) != 2:
         usage()
